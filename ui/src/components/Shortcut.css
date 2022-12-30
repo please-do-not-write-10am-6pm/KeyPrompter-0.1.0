@@ -1,0 +1,25 @@
+.shortcut {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.shortcut:last-child {
+  margin-bottom: 0;
+}
+
+.description {
+  background-color: var(--bg-color);
+  border-radius: 5px;
+  color: var(--font-color);
+  display: inline-block;
+  font-size: var(--font-size);
+  font-weight: bold;
+  padding: 10px 13px;
+}
+
+.count {
+  font-size: calc(var(--font-size) * 0.7);
+  margin-left: 8px;
+  position: relative;
+  top: 3px;
+}
